@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604367092 source:d:\segundo semestre\programacion\primer parcial\examen_juego-de-niveles_jevg\prueba_musica_jevg.cpp\main.cpp
+	<windows.h>
+	<mmsystem.h>
+
