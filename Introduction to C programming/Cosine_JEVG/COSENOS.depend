@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1590205072 source:e:\1mm2_jevg\progra\cosenos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	<math.h>
+

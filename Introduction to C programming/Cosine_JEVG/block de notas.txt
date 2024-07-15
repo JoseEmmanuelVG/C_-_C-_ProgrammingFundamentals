@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+#include <time.h>
+#include <math.h>
+
+void posicion(int a, int b)
+{
+    COORD coord;
+    coord.X=a;
+    coord.Y=b;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
+}
+
+int main()
+{
+float x=4,y=5,z,A,B,C,A2,B2,C2,div1,div2,div3,Div1,Div2,Div3;
+ double pi=3.14159265358979323846;
+z=x/y;
+printf("%f \n",z);
+printf("%f",acos(.8));
+
+ posicion(45,2);printf("%cNGULOS DE UN TRIANGULO",181);
+ posicion(2,4);printf("Ingresa las medidas de los lados ");
+ posicion(2,6);printf("Medida del lado A:");
+ scanf("%f",&A);
+ posicion(2,8);printf("Medida del lado B:");
+ scanf("%f",&B);
+ posicion(2,10);printf("Medida del lado C:");
+ scanf("%f",&C);
+ A2=A*A;        B2=B*B;        C2=C*C;
+ Div1=B2+C2-A2;  Div2=A2+C2-B2;  Div3=A2+B2-C2;
+ div1=2*B*C;    div2=2*A*C;    div3=2*A*B;
+ posicion(2,11);printf("%f \t %f \t %f",Div1,Div2,Div3);
+
+ float a=Div1 / div1;
+ float b=Div2 / div2;
+ float c=Div3 / div3;
+
+ posicion(10,12);printf("EL %cNGULO a =",181);  posicion(30,12);printf("EL %cNGULO b =",181);  posicion(50,12);printf("EL %cNGULO c =",181);
+ posicion(15,14);printf("%f",(acos(a)*180)/pi);          posicion(35,14);printf("%f",acos(b));          posicion(55,14);printf("%f",acos(c));
+
+}

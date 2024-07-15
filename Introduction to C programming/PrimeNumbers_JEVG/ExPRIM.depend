@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1584319972 source:e:\1mm2_jevg\exprim\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

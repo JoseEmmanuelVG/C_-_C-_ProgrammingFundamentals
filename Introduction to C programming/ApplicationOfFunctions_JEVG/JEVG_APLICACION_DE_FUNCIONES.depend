@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1593408354 source:e:\1mm2_jevg\progra\jevg_aplicacion_de_funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<time.h>
+

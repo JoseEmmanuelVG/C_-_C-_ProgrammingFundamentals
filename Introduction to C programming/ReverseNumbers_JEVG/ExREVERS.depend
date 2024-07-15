@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1584323068 source:e:\1mm2_jevg\exrevers\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
